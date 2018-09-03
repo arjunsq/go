@@ -47,18 +47,6 @@ func (p person) sayName() {
 }
 
 func main() {
-	bond := person{
-		"James",
-		"Bond",
-		40,
-	}
-	ks := person{
-		"Arjun",
-		"K S",
-		21,
-	}
-	bond.sayName()
-	ks.sayName()
 
 	james := agent{
 		person{
