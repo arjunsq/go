@@ -1,8 +1,13 @@
 package base
 
 type Person struct {
-	Fname, Lname, Password, Image, Country string
-	Age, Id                                int
+	Fname    string `json: "fname"`
+	Lname    string `json: "lname"`
+	Password string `json: "password"`
+	Image    string `json: "image"`
+	Country  string `json: "country"`
+	Age      int    `json: "age"`
+	Id       int    `json: "id"`
 }
 
 type Operations interface {
